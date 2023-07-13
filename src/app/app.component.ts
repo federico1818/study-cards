@@ -12,17 +12,8 @@ export class AppComponent {
     public card: Card = {
         children: [
             {
-                tag: 'header',
-                children: [
-                    {
-                        tag: 'h1',
-                        innerText: 'Historia Griega',
-                    }
-                ]
-            },
-            {
-                tag: 'main',
-                innerText: 'MAIN'
+                tag: 'h1',
+                innerText: 'Grecia clásica'
             }
         ]
     }
